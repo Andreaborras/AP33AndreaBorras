@@ -1,4 +1,4 @@
-cat > file1 <<
-grep -A 5 "EDIFICIO A" file1 | tail -n 5 > a
-grep -A 5 "EDIFICIO D" file1 | tail -n 5 > d
-grep "SEMANAS" file1 > s
+1 cat > file1 <<
+2 grep -A 5 "EDIFICIO A" file1 | tail -n 5 > a
+2.1 grep -A 5 "EDIFICIO D" file1 | tail -n 5 > d
+2.2 grep "SEMANAS" file1 > s
