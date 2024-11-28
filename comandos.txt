@@ -1,3 +1,4 @@
 cat > file1 <<
 grep -A 5 "EDIFICIO A" file1 | tail -n 5 > a
 grep -A 5 "EDIFICIO D" file1 | tail -n 5 > d
+grep "SEMANAS" file1 > s
